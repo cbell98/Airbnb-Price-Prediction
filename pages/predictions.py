@@ -207,4 +207,4 @@ def predict(room_type, guests_included, review_scores_rating,
 def imgage(room_type):
     '''Simple image function to return an image to accompany a prediction'''
     if room_type <= 1:
-        return html.Img(src='assets/pic.jpg', className='img', style={'height': '500px'})
+        return html.Img(src='assets/pic2.jpg', className='img', style={'height': '500px'})
