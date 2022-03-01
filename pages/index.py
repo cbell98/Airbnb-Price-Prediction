@@ -16,9 +16,9 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Thinking about visitng New York City?
+            ## Thinking about visiting New York City?
              
-            Get an idea of accomodation prices before you go with our
+            Get an idea of accommodation prices before you go with our
             NYC Airbnb price predictor!
 
             """

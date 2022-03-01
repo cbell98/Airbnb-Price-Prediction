@@ -33,14 +33,14 @@ column1 = dbc.Col(
         ),
 
         # Accomodation type dropdown
-        dcc.Markdown('#### Accomodation Type'),
+        dcc.Markdown('#### Accommodation Type'),
         dcc.Dropdown(
             id='room_type',
             options=[
                 {'label': 'Entire home/apt', 'value': 1},
                 {'label': 'Shared home/apt', 'value': 0}
             ],
-            placeholder='Select an accomodation type',
+            placeholder='Select an accommodation type',
             value=2,
             className='mb-5'
         ),
