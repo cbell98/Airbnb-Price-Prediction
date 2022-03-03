@@ -43,6 +43,7 @@ dbc.themes.UNITED
 dbc.themes.YETI
 """
 
+
 external_stylesheets = [
     dbc.themes.CYBORG,  # Bootswatch theme
     'https://use.fontawesome.com/releases/v5.9.0/css/all.css',  # for social media icons
